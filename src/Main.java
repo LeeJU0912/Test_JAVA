@@ -5,6 +5,7 @@ class FrameInit extends JFrame {
         this.setLayout(null);
 
         JButton button = new JButton("버튼");
+        button.setBounds(100, 100, 50, 50);
         this.add(button);
 
 
